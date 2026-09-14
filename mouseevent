@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Move Example</title>
+</head>
+<body>
+
+    <h2>Move your mouse around the page!</h2>
+
+    <p id="position">Mouse position will appear here.</p>
+
+    <script>
+        
+    </script>
+
+</body>
+</html>
