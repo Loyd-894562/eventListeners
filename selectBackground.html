@@ -5,7 +5,7 @@
 </head>
 <body>
 
-    <h2>Choose a Background Color</h2>
+    <h2 id="color">Choose a Background Color</h2>
 
     <select id="colorSelect">
         <option value="">Select a color</option>
@@ -16,7 +16,10 @@
     </select>
 
     <script>
-       
+       const colorSelect = document.getElementById('colorSelect');
+       colorSelect.addEventListener('change', function() {
+        document.body.style.backgroundColor = event.target.value;
+       })
     </script>
 
 
